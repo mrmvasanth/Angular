@@ -1,0 +1,21 @@
+.outerDiv{
+    border:2px black solid;
+    padding: 15px
+}
+
+.titleDiv{
+    font-family: Verdana;
+    font-size: 1.5rem;
+}
+
+.valueDiv{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.tBold{
+    font-style: italic;
+    font-weight: bold;
+
+}
+

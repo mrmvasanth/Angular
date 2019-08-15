@@ -1,0 +1,13 @@
+<div class="outerDiv">
+    <p class="titleDiv">Name:</p>
+    <p class="valueDiv tBold" (click)="toggleCollapse()">{{user.name}}</p>
+    
+    <div *ngIf="!isCollapsed">
+        <p class="titleDiv">Age:</p>
+        <p class="valueDiv">{{user.age}}</p>
+        <div *ngIf="user.phone.length>0">
+            <p class="titleDiv">Phone:</p>
+            <p class="valueDiv" *ngFor="let phoneNumber of user.phone "> {{phoneNumber}}</p>
+        </div>
+    </div>
+</div>
