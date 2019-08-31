@@ -1,6 +1,6 @@
 <div class="outerDiv">
      <p class="titleDiv">Name :</p>
-    <p class="valueDiv tBold" click)="toggleCollapse()">{{user.name}}</p>
+    <p class="valueDiv tBold" (click)="toggleCollapse()">{{user.name}}</p>
     
     <div *ngIf="!isCollapsed">
         <p class="titleDiv">Age:</p>

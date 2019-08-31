@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { DateComponent } from './date/date.component';
 import { AddressCardComponent } from './address-card/address-card.component';
+import { SimpleServiceService } from './simple-service.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { AddressCardComponent } from './address-card/address-card.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SimpleServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
